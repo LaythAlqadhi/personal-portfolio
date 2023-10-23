@@ -1233,10 +1233,10 @@ form.append(nameContainer, emailContainer, messageContainer, submitButton);
 footer.append(footerContainer);
 document.body.append(header, aboutSection, projectsSection, footer);
 
-(0,_visualEffects_js__WEBPACK_IMPORTED_MODULE_0__.parallax)(hillOneImg, 0.065);
-(0,_visualEffects_js__WEBPACK_IMPORTED_MODULE_0__.parallax)(hillTwoImg, 0.045);
-(0,_visualEffects_js__WEBPACK_IMPORTED_MODULE_0__.parallax)(hillThreeImg, 0.025);
-(0,_visualEffects_js__WEBPACK_IMPORTED_MODULE_0__.parallax)(hillFourImg, 0.005);
+(0,_visualEffects_js__WEBPACK_IMPORTED_MODULE_0__.parallax)(hillOneImg, 0.025);
+(0,_visualEffects_js__WEBPACK_IMPORTED_MODULE_0__.parallax)(hillTwoImg, 0.0085);
+(0,_visualEffects_js__WEBPACK_IMPORTED_MODULE_0__.parallax)(hillThreeImg, 0.0065);
+(0,_visualEffects_js__WEBPACK_IMPORTED_MODULE_0__.parallax)(hillFourImg, 0.00045);
 
 const projectDetailsContainer = document.querySelectorAll('.project-details-container');
 projectDetailsContainer.forEach(container => {
